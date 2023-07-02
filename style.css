@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+}
+
+h2{
+    padding-top: 10vh;
+}
+
+#app{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.form{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content-json{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+    align-items: center;
+}
+
+textarea {
+    width: 100%;
+    min-height: 50%;
+    font-size: 20px;
+}
+
+.content-json button{
+    width: 5rem;
+}
+
+.content-csv{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+    align-items: center;
+}
+
+.content-csv .content-button {
+    display: flex;
+    gap: 20px;
+}

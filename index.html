@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON a CSV</title>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+            <h2>CONVERTIDOR DE JSON A CSV</h2>
+        <div class="form">
+            <div class="content-json">
+                <h3 >JSON</h3>
+                <textarea name="bConvert" placeholder="Poga su json aqui" id="jsonform" cols="30" rows="10"></textarea>
+                <button id="bConvert">Convertir</button>
+            </div>
+            <div class="content-csv">
+                <h3>CSV</h3>
+                <textarea name="" placeholder="Aqui aparecera su json convertido a csv" id="csvForm" cols="30" rows="10"></textarea>
+                <div class="content-button">
+                    <button id="bDownload">Descargar como csv</button>
+                    <button id="bDownloadXlsx">Descargar como xlsx</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
